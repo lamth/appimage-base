@@ -13,7 +13,7 @@ FROM lamth/appimage-base:1.0-ubuntu
 
 COPY someapp.AppImage /app/someapp.AppImage
 
-CMD /app/Attendance.AppImage --no-sandbox
+CMD /app/someapp.AppImage --no-sandbox
 ```
 - Build it to other image
 - Run new image **someapp:0.001-ubuntu**:
